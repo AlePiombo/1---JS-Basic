@@ -49,3 +49,19 @@ console.log(typeof symbol1)
 console.log(typeof bigInt1)
 console.log(typeof bigInt2)
 console.log(typeof address2) // va a ser OBJETO
+
+
+/*
+Falsy:
+undefined (ej: address, phoneNumber)
+null (ej: address2, phoneNumber2)
+false (ej: isMarried)
+0, NaN, "" (no tienes estos en tu código, pero también son falsy)
+
+Truthy:
+Cualquier string no vacío (ej: name, alias, email)
+Cualquier número distinto de 0 y que no sea NaN (ej: age, height, weight)
+true (ej: isSingle, isStudent)
+Objetos y símbolos (ej: symbol1, symbol2)
+BigInt (ej: bigInt1, bigInt2)
+*/
